@@ -18,12 +18,11 @@ function johnLennonFacts(facts){
 
 function iLoveTheBeatles(n){
   var array = [];
-  var i=0
   function incrementVariable(){
-  i=i+1;}
+  n=n+1;}
     do{
    array.push("I love the Beatles!");
    incrementVariable();} 
- while(i<=n);
+ while(n<=15);
 return array;
 }
